@@ -1,0 +1,63 @@
+
+body{
+    background-image: url(immagini/background.jpg);
+    background-size: cover;
+    font-family:'Times New Roman', Times, serif;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 50px;
+}
+/* Logo */
+header{
+    text-align: center;
+}
+.title{
+    color: limegreen;
+}
+#logo{
+    width: 25%;
+}
+
+/* Menù di Navigazione */
+nav{
+    background-color: limegreen;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Monopattini */
+.mono{
+    color: white;
+}
+.row{
+    display: inline-block;
+    height: 10px;
+}
+.barra-orange{
+    background-color: orange;
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.0);
+}
+.barra-green{
+    background-color: limegreen;
+    width: 500px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.0);
+}
+.barra-red{
+    background-color: darkred;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.0);
+}
